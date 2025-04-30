@@ -1,11 +1,13 @@
 # bootcamp-I
-Este repositório contém a implementação de um Currículo Digital. O objetivo é fornecer uma versão moderna e interativa do meu currículo.
+Este repositório contém a implementação de um **Currículo Digital** interativo, desenvolvido com **HTML**, **CSS** e **JavaScript**, com o objetivo de apresentar de forma moderna e eficiente meu histórico profissional e acadêmico.
 
-# Tecnologias Utilizadas
-HTML5: Estruturação do conteúdo e marcação semântica.
+## 📝 Descrição
 
-CSS3: Estilização e design responsivo para uma experiência de usuário otimizada.
+Este projeto consiste em um currículo digital responsivo e interativo, desenvolvido para ser acessado de qualquer dispositivo. O layout é limpo e fácil de navegar, proporcionando uma experiência agradável para quem visualiza o conteúdo.
 
-JavaScript: Interatividade e funcionalidades dinâmicas.
+## Tecnologias Utilizadas
 
-Bootstrap: Framework front-end para design responsivo e componentes prontos para utilização.
+- **HTML5**: Estruturação semântica do conteúdo.
+- **CSS3**: Estilização com design responsivo.
+- **JavaScript**: Funcionalidades dinâmicas para interatividade.
+- **Bootstrap**: Framework para design responsivo e componentes prontos.
