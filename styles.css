@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #121214;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 10), rgba(0, 0, 0, 0.5)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    height: 20em;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3,h5{
+    font-weight: bolder;
+}
+
+.competencia{
+    font-size: 23px;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#typewriter {
+    border-right: 2px solid #0dcaf0;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.8s step-end infinite;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.project-card {
+    background-color: rgb(41, 67, 121) !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h5 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #0dcaf0;
+    }
+}
+
+
+.contact-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.contact-link:hover {
+    transform: scale(1.1);
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+.small{
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+    color: #cccccc;
+    font-size: 14px;
+    border-top: 1px solid #444;
+}
+footer p, footer small {
+    margin: 0;
+    padding: 2px 0;
+}
